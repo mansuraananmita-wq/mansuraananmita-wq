@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p3-t">
+  <title id="p3-t">eme3: Multi-Vendor Social Marketplace with Product Reels & Live Shopping.</title>
+  <defs>
+    <linearGradient id="p3-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <radialGradient id="p3-glow" cx="82%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".7"/><stop offset="1" stop-color="#451126" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="p3-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#C77B9B" stroke-opacity=".07"/>
+    </pattern>
+    <clipPath id="p3-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+    <linearGradient id="p3-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F0F3"/><stop offset=".45" stop-color="#E5B5C7"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .p-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .p-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .p-chip { animation: p-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    @keyframes p-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .p-draw { stroke-dasharray: 600; stroke-dashoffset: 600; animation: p-draw 2s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    @keyframes p-draw { to { stroke-dashoffset: 0; } }
+    .p-trace-p3 { stroke-dasharray: 564 3136; stroke-dashoffset: 3700; animation: p-trace 7s linear infinite; }
+    @keyframes p-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .p-chip { animation: none; } .p-draw { animation: none; stroke-dashoffset: 0; } .p-trace-p3 { display: none; } }
+  </style>
+  <g clip-path="url(#p3-clip)">
+    <rect width="1200" height="370" fill="url(#p3-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#p3-grid)"/>
+    <rect width="1200" height="370" fill="url(#p3-glow)"/>
+
+    <g transform="translate(56 46)">
+      <text class="p-mono" x="0" y="16" font-size="12" letter-spacing="2.6" fill="#C77B9B">03 · E-COMMERCE · SOCIAL · COMMERCE REELS · 2026</text>
+      <text class="p-serif" x="0" y="70" font-size="46" font-weight="300" letter-spacing="-1.2" fill="#F8F0F3">eme3</text>
+      <text class="p-sans" x="0" y="106" font-size="16.5" fill="#B6A3AC">Multi-Vendor Social Marketplace with Product Reels & Live Shopping.</text>
+      <text class="p-mono" x="0" y="138" font-size="12.5" fill="#E5B5C7"><tspan fill="#C77B9B">BUILT › </tspan>Interactive short-form video reels, live product streams, multi-vendor storefronts & streamlined checkout workflows.</text>
+      
+      <line class="p-draw" x1="0" y1="162" x2="680" y2="162" stroke="#C77B9B" stroke-opacity=".3"/>
+
+      <!-- Metrics -->
+      <g transform="translate(0 200)">
+        <text class="p-serif" font-size="30" font-weight="300" fill="#F8F0F3">REELS & LIVE</text>
+        <text class="p-sans" y="24" font-size="12.5" fill="#B6A3AC">Interactive video feeds</text>
+      </g>
+      <g transform="translate(230 200)">
+        <text class="p-serif" font-size="30" font-weight="300" fill="#F8F0F3">MULTI-VENDOR</text>
+        <text class="p-sans" y="24" font-size="12.5" fill="#B6A3AC">Role-based storefront engine</text>
+      </g>
+      <g transform="translate(460 200)">
+        <text class="p-serif" font-size="30" font-weight="300" fill="#F8F0F3">STREAMLINED</text>
+        <text class="p-sans" y="24" font-size="12.5" fill="#B6A3AC">Cart, coupon & checkout lifecycle</text>
+      </g>
+    </g>
+
+    <!-- Chips -->
+    <g><g class="p-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="92" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="102" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">React.js</text></g><g class="p-chip" style="animation-delay:1.12s"><rect x="156" y="314" width="83" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="197" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Node.js</text></g><g class="p-chip" style="animation-delay:1.24s"><rect x="247" y="314" width="83" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="288" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Express</text></g><g class="p-chip" style="animation-delay:1.36s"><rect x="338" y="314" width="128" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="402" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Tailwind CSS</text></g><g class="p-chip" style="animation-delay:1.48s"><rect x="474" y="314" width="83" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="515" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">MongoDB</text></g></g>
+
+    <!-- Right Graphic -->
+    <g transform="translate(860 40)">
+        <rect x="0" y="0" width="190" height="270" rx="16" fill="#220B19" stroke="#C77B9B" stroke-opacity=".35"/>
+        <circle cx="95" cy="100" r="30" fill="#701A3D" fill-opacity=".6"/>
+        <polygon points="90,88 108,100 90,112" fill="#F8F0F3"/>
+        <text class="p-mono" x="95" y="160" text-anchor="middle" font-size="11" fill="#E5B5C7">LIVE REELS FEED</text>
+        <g transform="translate(20 190)">
+          <rect width="150" height="30" rx="6" fill="#E11D48" fill-opacity=".3"/>
+          <text class="p-mono" x="75" y="19" text-anchor="middle" font-size="10.5" fill="#F8F0F3">INSTANT BUY 🛍️</text>
+        </g>
+      </g>
+
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#C77B9B" stroke-opacity=".2"/>
+    <rect class="p-trace-p3" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p3-trace)" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-labelledby="ach-title ach-desc">
+  <title id="ach-title">Recognition and Achievements</title>
+  <desc id="ach-desc">JnU AI &amp; IT Fest 2026 Grand Finalist (Top 15), Hult Prize On-Campus 5th place, BRAC Youth Ambassador, UFTB OOP Capstone Top Evaluation.</desc>
+  <defs>
+    <linearGradient id="ach-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+    <radialGradient id="ach-glow-a" cx="85%" cy="0%" r="90%"><stop offset="0" stop-color="#701A3D" stop-opacity=".85"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ach-trace" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F8F0F3"/><stop offset=".45" stop-color="#E5B5C7"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/></linearGradient>
+    <clipPath id="ach-clip-a"><rect width="700" height="250" rx="16"/></clipPath>
+    <clipPath id="ach-clip-b"><rect width="456" height="182" rx="16"/></clipPath>
+    <clipPath id="ach-clip-c"><rect width="570" height="118" rx="14"/></clipPath>
+    <clipPath id="ach-clip-d"><rect width="586" height="118" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .ach-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ach-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ach-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .ach-trace-a { stroke-dasharray: 340 1900; stroke-dashoffset: 2240; animation: ach-trace-a 6s linear infinite; }
+    @keyframes ach-trace-a { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .ach-trace-a { display: none; } }
+  </style>
+
+  <rect width="1200" height="430" rx="20" fill="url(#ach-bg)"/>
+  <rect x=".5" y=".5" width="1199" height="429" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+
+  <!-- JnU AI & IT Fest 2026 Hero Card -->
+  <g transform="translate(24 24)">
+    <g clip-path="url(#ach-clip-a)">
+      <rect width="700" height="250" fill="#190B12"/>
+      <rect width="700" height="250" fill="url(#ach-glow-a)"/>
+      <text class="ach-serif" x="684" y="116" text-anchor="end" font-size="110" font-weight="300" letter-spacing="-5" fill="#E5B5C7" fill-opacity=".12">JnU AI FEST</text>
+    </g>
+    <rect x=".5" y=".5" width="699" height="249" rx="15.5" fill="none" stroke="#C77B9B" stroke-opacity=".38"/>
+    <rect class="ach-trace-a" x=".5" y=".5" width="699" height="249" rx="15.5" fill="none" stroke="url(#ach-trace)" stroke-width="1.8" stroke-linecap="round"/>
+    
+    <g transform="translate(36 34)">
+      <rect width="146" height="28" rx="14" fill="#701A3D" stroke="#C77B9B" stroke-opacity=".4"/>
+      <text class="ach-mono" x="73" y="18" text-anchor="middle" font-size="11" letter-spacing="1.5" fill="#F8F0F3">GRAND FINALIST</text>
+      
+      <text class="ach-serif" x="0" y="82" font-size="34" font-weight="300" letter-spacing="-0.8" fill="#F8F0F3">JnU AI &amp; IT Fest 2026</text>
+      <text class="ach-sans" x="0" y="112" font-size="14" fill="#E5B5C7">BrainChild Season 2.0 · Jagannath University IT Society (JnUITS)</text>
+      <text class="ach-sans" x="0" y="136" font-size="13" fill="#B6A3AC">Selected as Grand Finalist among Top 15 teams nationwide with Team Beta.</text>
+      <text class="ach-mono" x="0" y="172" font-size="12" fill="#F8F0F3"><tspan fill="#C77B9B">PRODUCT › </tspan>Folika (ফলিকা) — AI-powered Bangla-first agri advisory platform</text>
+    </g>
+  </g>
+
+  <!-- Hult Prize Card (Top Right) -->
+  <g transform="translate(748 24)">
+    <g clip-path="url(#ach-clip-b)">
+      <rect width="428" height="250" fill="#200C17" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect width="428" height="250" fill="url(#ach-glow-a)"/>
+    </g>
+    <rect x=".5" y=".5" width="427" height="249" rx="15.5" fill="none" stroke="#C77B9B" stroke-opacity=".3"/>
+    <g transform="translate(30 34)">
+      <rect width="154" height="28" rx="14" fill="#381021" stroke="#C77B9B" stroke-opacity=".4"/>
+      <text class="ach-mono" x="77" y="18" text-anchor="middle" font-size="11" letter-spacing="1" fill="#E5B5C7">5TH PLACE / 20 TEAMS</text>
+      <text class="ach-serif" x="0" y="82" font-size="28" font-weight="300" fill="#F8F0F3">Hult Prize On-Campus</text>
+      <text class="ach-sans" x="0" y="112" font-size="13.5" fill="#E5B5C7">University of Frontier Technology Bangladesh</text>
+      <text class="ach-sans" x="0" y="138" font-size="12.5" fill="#B6A3AC">Team BabunToo Academy · Score: 164 / 210.</text>
+      <text class="ach-mono" x="0" y="172" font-size="11.5" fill="#B6A3AC">Social entrepreneurship &amp; youth impact initiative</text>
+    </g>
+  </g>
+
+  <!-- Bottom Left: BRAC Ambassador -->
+  <g transform="translate(24 294)">
+    <g clip-path="url(#ach-clip-c)">
+      <rect width="570" height="112" rx="14" fill="#1D0A14" stroke="#C77B9B" stroke-opacity=".25"/>
+    </g>
+    <rect x=".5" y=".5" width="569" height="111" rx="13.5" fill="none" stroke="#C77B9B" stroke-opacity=".25"/>
+    <g transform="translate(24 24)">
+      <rect width="102" height="22" rx="11" fill="#300F1E"/>
+      <text class="ach-mono" x="51" y="15" text-anchor="middle" font-size="10" letter-spacing="1" fill="#E5B5C7">COMPLETED</text>
+      <text class="ach-serif" x="114" y="18" font-size="20" fill="#F8F0F3">BRAC Youth Ambassador</text>
+      <text class="ach-sans" x="0" y="52" font-size="12.5" fill="#B6A3AC">BRAC Migration Programme in partnership with Australian Government.</text>
+      <text class="ach-mono" x="0" y="72" font-size="11" fill="#C77B9B">Public campaigning against trafficking &amp; grassroots youth communication</text>
+    </g>
+  </g>
+
+  <!-- Bottom Right: Capstone -->
+  <g transform="translate(618 294)">
+    <g clip-path="url(#ach-clip-d)">
+      <rect width="558" height="112" rx="14" fill="#1D0A14" stroke="#C77B9B" stroke-opacity=".25"/>
+    </g>
+    <rect x=".5" y=".5" width="557" height="111" rx="13.5" fill="none" stroke="#C77B9B" stroke-opacity=".25"/>
+    <g transform="translate(24 24)">
+      <rect width="112" height="22" rx="11" fill="#300F1E"/>
+      <text class="ach-mono" x="56" y="15" text-anchor="middle" font-size="10" letter-spacing="1" fill="#E5B5C7">TOP SCORE</text>
+      <text class="ach-serif" x="124" y="18" font-size="20" fill="#F8F0F3">UFTB OOP Capstone Project</text>
+      <text class="ach-sans" x="0" y="52" font-size="12.5" fill="#B6A3AC">FinanceTracker Pro: Hybrid Java Swing Desktop + Laravel 10 REST API.</text>
+      <text class="ach-mono" x="0" y="72" font-size="11" fill="#C77B9B">Multi-account budgeting, real-time analytics &amp; automated PDF generation</text>
+    </g>
+  </g>
+</svg>

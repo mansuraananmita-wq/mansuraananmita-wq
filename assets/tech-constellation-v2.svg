@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="tc-title tc-desc">
+  <title id="tc-title">Tech stack constellation</title>
+  <desc id="tc-desc">Languages: TypeScript, JavaScript, Python, Dart, PHP, Java, SQL. Frontend: React, Next.js, Flutter, Tailwind CSS. Backend: NestJS, Node.js, Express, Laravel, REST APIs, WebSockets. AI: Gemini Vision, Groq Llama 3.1. Data: PostgreSQL, MySQL, Prisma, Redis, Docker.</desc>
+  <defs>
+    <linearGradient id="tc-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+    <radialGradient id="tc-glow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#451126" stop-opacity=".9"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
+    <linearGradient id="tc-panel-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#240D1B"/><stop offset="1" stop-color="#190B12"/></linearGradient>
+  </defs>
+  <style>
+    .tc-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .tc-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .tc-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  </style>
+
+  <rect width="1200" height="500" rx="20" fill="url(#tc-bg)"/>
+  <rect width="1200" height="500" rx="20" fill="url(#tc-glow)"/>
+  <rect x=".5" y=".5" width="1199" height="499" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+
+  <!-- Row 1: 3 Panels -->
+  <!-- 01 Languages -->
+  <g transform="translate(32 32)">
+    <rect width="360" height="200" rx="14" fill="url(#tc-panel-bg)" stroke="#C77B9B" stroke-opacity=".3"/>
+    <text class="tc-mono" x="24" y="34" font-size="11" letter-spacing="2" fill="#E11D48">01 · LANGUAGES</text>
+    <text class="tc-serif" x="24" y="66" font-size="20" fill="#F8F0F3">Core Programming</text>
+    <text class="tc-sans" x="24" y="104" font-size="14.5" fill="#E5B5C7">TypeScript · JavaScript · Python</text>
+    <text class="tc-sans" x="24" y="132" font-size="14.5" fill="#E5B5C7">Dart · PHP 8.x · Java · SQL</text>
+    <text class="tc-mono" x="24" y="170" font-size="11" fill="#B6A3AC">Modern syntax, type-safety &amp; OOP</text>
+  </g>
+
+  <!-- 02 Frontend & Mobile -->
+  <g transform="translate(420 32)">
+    <rect width="360" height="200" rx="14" fill="url(#tc-panel-bg)" stroke="#C77B9B" stroke-opacity=".3"/>
+    <text class="tc-mono" x="24" y="34" font-size="11" letter-spacing="2" fill="#E11D48">02 · FRONTEND &amp; MOBILE</text>
+    <text class="tc-serif" x="24" y="66" font-size="20" fill="#F8F0F3">User Interfaces &amp; Apps</text>
+    <text class="tc-sans" x="24" y="104" font-size="14.5" fill="#E5B5C7">React.js · Next.js · Flutter</text>
+    <text class="tc-sans" x="24" y="132" font-size="14.5" fill="#E5B5C7">Tailwind CSS · Alpine.js · PWAs</text>
+    <text class="tc-mono" x="24" y="170" font-size="11" fill="#B6A3AC">Responsive, animated, offline-ready</text>
+  </g>
+
+  <!-- 03 Backend & API -->
+  <g transform="translate(808 32)">
+    <rect width="360" height="200" rx="14" fill="url(#tc-panel-bg)" stroke="#C77B9B" stroke-opacity=".3"/>
+    <text class="tc-mono" x="24" y="34" font-size="11" letter-spacing="2" fill="#E11D48">03 · BACKEND &amp; API</text>
+    <text class="tc-serif" x="24" y="66" font-size="20" fill="#F8F0F3">Server &amp; Services</text>
+    <text class="tc-sans" x="24" y="104" font-size="14.5" fill="#E5B5C7">NestJS · Node.js · Express.js</text>
+    <text class="tc-sans" x="24" y="132" font-size="14.5" fill="#E5B5C7">Laravel 10 · REST APIs · WebSockets</text>
+    <text class="tc-mono" x="24" y="170" font-size="11" fill="#B6A3AC">Modular architecture &amp; real-time</text>
+  </g>
+
+  <!-- Row 2: 3 Panels -->
+  <!-- 04 AI & LLM -->
+  <g transform="translate(32 260)">
+    <rect width="360" height="200" rx="14" fill="url(#tc-panel-bg)" stroke="#C77B9B" stroke-opacity=".3"/>
+    <text class="tc-mono" x="24" y="34" font-size="11" letter-spacing="2" fill="#E11D48">04 · AI &amp; INTELLIGENCE</text>
+    <text class="tc-serif" x="24" y="66" font-size="20" fill="#F8F0F3">LLMs, Vision &amp; Voice</text>
+    <text class="tc-sans" x="24" y="104" font-size="14.5" fill="#E5B5C7">Gemini Vision · Groq Llama 3.1</text>
+    <text class="tc-sans" x="24" y="132" font-size="14.5" fill="#E5B5C7">Bangla NLP · Prompt Engineering</text>
+    <text class="tc-mono" x="24" y="170" font-size="11" fill="#B6A3AC">Explainable &amp; multi-modal systems</text>
+  </g>
+
+  <!-- 05 Data & Infrastructure -->
+  <g transform="translate(420 260)">
+    <rect width="360" height="200" rx="14" fill="url(#tc-panel-bg)" stroke="#C77B9B" stroke-opacity=".3"/>
+    <text class="tc-mono" x="24" y="34" font-size="11" letter-spacing="2" fill="#E11D48">05 · DATA &amp; INFRASTRUCTURE</text>
+    <text class="tc-serif" x="24" y="66" font-size="20" fill="#F8F0F3">Databases &amp; Containers</text>
+    <text class="tc-sans" x="24" y="104" font-size="14.5" fill="#E5B5C7">PostgreSQL · MySQL 8.x · MongoDB</text>
+    <text class="tc-sans" x="24" y="132" font-size="14.5" fill="#E5B5C7">Prisma ORM · Redis · Docker</text>
+    <text class="tc-mono" x="24" y="170" font-size="11" fill="#B6A3AC">Strict schemas, caching &amp; containerization</text>
+  </g>
+
+  <!-- 06 Tools & Workflow -->
+  <g transform="translate(808 260)">
+    <rect width="360" height="200" rx="14" fill="url(#tc-panel-bg)" stroke="#C77B9B" stroke-opacity=".3"/>
+    <text class="tc-mono" x="24" y="34" font-size="11" letter-spacing="2" fill="#E11D48">06 · WORKFLOW &amp; TOOLS</text>
+    <text class="tc-serif" x="24" y="66" font-size="20" fill="#F8F0F3">Ecosystem &amp; Delivery</text>
+    <text class="tc-sans" x="24" y="104" font-size="14.5" fill="#E5B5C7">Git · GitHub Actions · Postman</text>
+    <text class="tc-sans" x="24" y="132" font-size="14.5" fill="#E5B5C7">Linux · VS Code · Vercel</text>
+    <text class="tc-mono" x="24" y="170" font-size="11" fill="#B6A3AC">CI/CD automation &amp; developer tools</text>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p5-t">
+  <title id="p5-t">FinanceTracker Pro &amp; Finity: Cross-Technology Personal Finance Management &amp; Bilingual Store.</title>
+  <defs>
+    <linearGradient id="p5-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/>
+    </linearGradient>
+    <radialGradient id="p5-glow" cx="82%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".7"/><stop offset="1" stop-color="#451126" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="p5-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#C77B9B" stroke-opacity=".07"/>
+    </pattern>
+    <clipPath id="p5-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+    <linearGradient id="p5-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F0F3"/><stop offset=".45" stop-color="#E5B5C7"/><stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .p-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .p-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .p-chip { animation: p-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    @keyframes p-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .p-draw { stroke-dasharray: 600; stroke-dashoffset: 600; animation: p-draw 2s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    @keyframes p-draw { to { stroke-dashoffset: 0; } }
+    .p-trace-p5 { stroke-dasharray: 564 3136; stroke-dashoffset: 3700; animation: p-trace 7s linear infinite; }
+    @keyframes p-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .p-chip { animation: none; } .p-draw { animation: none; stroke-dashoffset: 0; } .p-trace-p5 { display: none; } }
+  </style>
+  <g clip-path="url(#p5-clip)">
+    <rect width="1200" height="370" fill="url(#p5-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#p5-grid)"/>
+    <rect width="1200" height="370" fill="url(#p5-glow)"/>
+
+    <g transform="translate(56 46)">
+      <text class="p-mono" x="0" y="16" font-size="12" letter-spacing="2.6" fill="#C77B9B">05 · FINTECH · OOP SYSTEM ARCHITECTURE · 2026</text>
+      <text class="p-serif" x="0" y="70" font-size="46" font-weight="300" letter-spacing="-1.2" fill="#F8F0F3">FinanceTracker Pro &amp; Finity</text>
+      <text class="p-sans" x="0" y="106" font-size="16.5" fill="#B6A3AC">Cross-Technology Personal Finance Management &amp; Bilingual Store.</text>
+      <text class="p-mono" x="0" y="138" font-size="12.5" fill="#E5B5C7"><tspan fill="#C77B9B">BUILT › </tspan>UFTB OOP Capstone uniting Java Swing desktop client with Laravel 10 REST API backend; Finity offers bilingual online commerce.</text>
+      
+      <line class="p-draw" x1="0" y1="162" x2="680" y2="162" stroke="#C77B9B" stroke-opacity=".3"/>
+
+      <!-- Metrics -->
+      <g transform="translate(0 200)">
+        <text class="p-serif" font-size="30" font-weight="300" fill="#F8F0F3">OOP CAPSTONE</text>
+        <text class="p-sans" y="24" font-size="12.5" fill="#B6A3AC">Top-tier university evaluation</text>
+      </g>
+      <g transform="translate(230 200)">
+        <text class="p-serif" font-size="30" font-weight="300" fill="#F8F0F3">HYBRID CLIENT</text>
+        <text class="p-sans" y="24" font-size="12.5" fill="#B6A3AC">Java Swing desktop + Web UI</text>
+      </g>
+      <g transform="translate(460 200)">
+        <text class="p-serif" font-size="30" font-weight="300" fill="#F8F0F3">MULTI-ACCOUNT</text>
+        <text class="p-sans" y="24" font-size="12.5" fill="#B6A3AC">Budgeting, analytics & PDF reports</text>
+      </g>
+    </g>
+
+    <!-- Chips -->
+    <g><g class="p-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="83" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="97" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">PHP 8.x</text></g><g class="p-chip" style="animation-delay:1.12s"><rect x="147" y="314" width="110" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="202" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Laravel 10</text></g><g class="p-chip" style="animation-delay:1.24s"><rect x="265" y="314" width="110" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="320" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Java Swing</text></g><g class="p-chip" style="animation-delay:1.36s"><rect x="383" y="314" width="101" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="433" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">MySQL 8.x</text></g><g class="p-chip" style="animation-delay:1.48s"><rect x="492" y="314" width="92" height="26" rx="13" fill="#27101C" stroke="#C77B9B" stroke-opacity=".35"/><text class="p-mono" x="538" y="331" text-anchor="middle" font-size="11.5" fill="#E5B5C7">REST API</text></g></g>
+
+    <!-- Right Graphic -->
+    <g transform="translate(840 50)">
+        <rect width="250" height="240" rx="14" fill="#190B12" stroke="#C77B9B" stroke-opacity=".3"/>
+        <text class="p-mono" x="20" y="35" font-size="11" fill="#E5B5C7">ANALYTICS &amp; LEDGER</text>
+        <polyline points="30,160 80,120 130,140 180,80 220,100" fill="none" stroke="#E11D48" stroke-width="2.5"/>
+        <circle cx="180" cy="80" r="5" fill="#F8F0F3"/>
+        <g fill="#F8F0F3" fill-opacity=".15">
+          <rect x="30" y="180" width="30" height="35" rx="3"/><rect x="80" y="150" width="30" height="65" rx="3"/>
+          <rect x="130" y="165" width="30" height="50" rx="3"/><rect x="180" y="110" width="30" height="105" rx="3"/>
+        </g>
+      </g>
+
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#C77B9B" stroke-opacity=".2"/>
+    <rect class="p-trace-p5" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p5-trace)" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>
